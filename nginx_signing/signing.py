@@ -7,7 +7,7 @@ DEFAULT = object()
 
 
 def generate_key(s):
-    return urlsafe_b64encode(md5(s.decode('utf-8').digest()).rstrip('=')
+    return urlsafe_b64encode(md5(s.decode('utf-8')).digest()).rstrip('=')
 
 
 class Signer(object):
