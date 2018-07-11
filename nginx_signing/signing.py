@@ -1,7 +1,7 @@
 from base64 import urlsafe_b64encode
 from hashlib import md5
 from time import time
-from urllib.parse.urlparse import urlparse, urlunparse, ParseResult
+from urllib.parse import urlparse, urlunparse, ParseResult
 
 DEFAULT = object()
 
